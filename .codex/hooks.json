@@ -1,0 +1,16 @@
+{
+  "hooks": {
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "/usr/bin/env python3 .codex/hooks/langfuse_stop.py",
+            "timeout": 10,
+            "statusMessage": "Sending Codex trace to Langfuse"
+          }
+        ]
+      }
+    ]
+  }
+}
